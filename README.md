@@ -1,7 +1,7 @@
 # ⚡ Charging-Simulator
 
 A dynamic robot scheduling simulator for electric vehicle charging in smart campus or industrial parks. This project supports multiple dispatching strategies, visual simulation, and performance analytics.
-> [GitHub](https://github.com/Serenananah/charging-simulator)
+
 
 ## 🚀 Project Overview
 
@@ -26,7 +26,7 @@ This system simulates autonomous charging robots that dynamically navigate and s
 ```
 charging-simulator/
 │
-├── backend/ # Flask Backend
+├── Backend/ # Flask Backend
 │ ├── app.py # API routes (init_map, next_step, get_state, metrics_summary)
 │ ├── environment.py # Simulation environment
 │ ├── hungarian.py # Hungarian algorithm
@@ -35,7 +35,7 @@ charging-simulator/
 │ ├── train_ppp.py # PPO training interface
 │ └── ppo——model/ 
 │
-├── charging-frontend/ # React + Vite Frontend
+├── Frontend/ # React + Vite Frontend
 │ ├── src/
 │ │ ├── components/ # Boxplot, Barchart, Violin, MapView, etc.
 │ │ ├── pages/ # Overview.jsx, Metrics.jsx
@@ -44,7 +44,13 @@ charging-simulator/
 │ │ └── main.jsx # ReactDOM root
 │ └── node_modules/ 
 │
-├── .venv/ 
+├── .venv/
+│
+├── docs/
+│ ├── FinalReport
+│ ├── PRE
+│ └── showvideo
+│
 └── README.md
 ```
 

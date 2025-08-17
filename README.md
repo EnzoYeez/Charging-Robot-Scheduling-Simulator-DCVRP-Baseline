@@ -103,9 +103,9 @@ Then open `http://localhost:5173`.
 
 ## 📷 Preview
 
-![Overview Demo](charging-frontend/assets/overview-demo.png)
-![Metrices Demo](charging-frontend/assets/metrices-demo.png)
-![Sidebar Demo](charging-frontend/assets/sidebar-demo.png)
+![Overview Demo](Frontend/assets/overview-demo.png)
+![Metrices Demo](Frontend/assets/metrices-demo.png)
+![Sidebar Demo](Frontend/assets/sidebar-demo.png)
 
 ## 📄 License
 
